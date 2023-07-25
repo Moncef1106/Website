@@ -1,6 +1,6 @@
 <h1 align="center">Moncef Elmzouri</h1>
 
-## Repository for my website's source code
+## Repository of my website
 
 #### Website
 
