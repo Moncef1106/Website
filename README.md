@@ -4,10 +4,5 @@
 
 #### Website
 
-1. Run normal Minecraft 1.8.9 and once it reaches the title screen wait about 5 seconds and close it.
-2. Install Minecraft **1.8.9** forge from the [forge website](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.8.9.html)
-   - Once you click on the installer you'd like to download, a window will pop up. **Do not click on anything in the middle of your screen**; instead, click on the `skip ad` button towards the top right
-3. Open the installer, select install client, and click install
-4. When forge is installed, open the Minecraft launcher, go under the `installations tab`, click `new installation`, select the version release `1.8.9-forge1.8.9-11.15.1.xxxx` (it will usually be all the way towards the bottom).
-5. Once you are done, run this new installation that you just created. Once it reaches the title screen, wait about 5 seconds and close it.
+I created my website/portfolio as a means to showcase my capabilities and skills in a visually engaging and accessible format. By designing and developing this platform, I aim to present a comprehensive display of my expertise, experiences, and projects to potential employers, clients, or collaborators. Through carefully curated content and a user-friendly layout, visitors can gain insights into my proficiency in web development and other relevant areas (python, javascript, etc). Additionally, having a personalized website allows me to express my unique style and personality, fostering a more memorable and impactful impression. Overall, my website serves as an interactive representation of my journey and acts as a powerful tool to demonstrate my passion and dedication to the field.
 
