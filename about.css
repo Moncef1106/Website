@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&amp;display=swap');
+* 
+{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white; 
+  transition: all 0.2s ease-in;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.home-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.home-button {
+  color: black;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid black; 
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.home-button:hover {
+  background-color: black; 
+  color: #f6f4e6; 
+}
+
+.email-container {
+  position: absolute;
+  top: 870px;
+  left: 1620px;
+}
+
+.emailpng {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.email-text {
+  color: black;
+  font-size: 1.1em;
+  margin-left: 75px;
+  margin-top: -45px;
+}
+
+.phone-container {
+  position: absolute;
+  top: 810px;
+  left: 1620px;
+}
+
+.phonepng {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 5px;
+  
+}
+
+.phone-text {
+  color: black;
+  font-size: 1.1em;
+  margin-left: 75px;
+  margin-top: -45px;
+}
+
+h1 {
+  color: black;
+  font-size: 90px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 960px;
+  margin-top: 140px;
+}
+
+
+h5 {
+  color: black;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 960px;
+  margin-top: -25px;
+}
+
+p {
+  color: black;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 960px;
+  margin-top: 20px;
+}
+
+.kat-container {
+  position: absolute;
+  top: 250px;
+  left: 500px;
+}
+
+.katpng {
+  width: 400px;
+  height: 500px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10%;
+}
+ 
+
+.dark-mode {
+  background-color: #272727;
+}
+
+.dark-mode h1,
+.dark-mode h5,
+.dark-mode p {
+  color: #f6f4e6; /* Change to your desired text color for dark mode */
+}
+
+.dark-mode .home-button {
+  color: #f6f4e6;
+  background-color: #272727; /* Add a background color for the dark mode button */
+  border-color: #f6f4e6; /* Add a border color for the dark mode button */
+}
+
+.dark-mode .home-button:hover {
+  background-color: #f6f4e6; 
+  color: #272727; 
+}
+
+.darkmodebutton {
+  position: absolute;
+  top: 10px;
+  left: 1890px;
+  border-width: 0px;
+  background-color: transparent;
+  font-size: 1.2em; /* Increase the font size to make the emoji larger */
+}
+
+
+
+.katpng a:hover {
+   box-shadow: 50px;
+}
