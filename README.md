@@ -1,10 +1,5 @@
 <h1 align="center">Moncef Elmzouri</h1>
 
-<div align="center">
-    <a href="https://github.com/Moulberry/NotEnoughUpdates/releases/latest" target="_blank">
-        <img src="https://img.shields.io/github/v/release/Moulberry/NotEnoughUpdates-REPO?color=informational&include_prereleases&label=release&logo=github&logoColor=white" alt="release">
-</div>
-
 NotEnoughUpdates (NEU) is a feature rich 1.8.9 Minecraft forge mod for Hypixel Skyblock.
 
 ## Getting Started
