@@ -1,10 +1,8 @@
 <h1 align="center">Moncef Elmzouri</h1>
 
-NotEnoughUpdates (NEU) is a feature rich 1.8.9 Minecraft forge mod for Hypixel Skyblock.
+Repository for my website's source code
 
-## Getting Started
-
-#### Installing Forge
+#### Website
 
 1. Run normal Minecraft 1.8.9 and once it reaches the title screen wait about 5 seconds and close it.
 2. Install Minecraft **1.8.9** forge from the [forge website](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.8.9.html)
