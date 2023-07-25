@@ -1,8 +1,6 @@
-<!-- markdownlint-disable-file MD001 MD033 -->
-<h1 align="center">NotEnoughUpdates</h1>
+<h1 align="center">Moncef Elmzouri</h1>
 
 <div align="center">
-    <!-- release -->
     <a href="https://github.com/Moulberry/NotEnoughUpdates/releases/latest" target="_blank">
         <img src="https://img.shields.io/github/v/release/Moulberry/NotEnoughUpdates-REPO?color=informational&include_prereleases&label=release&logo=github&logoColor=white" alt="release">
 </div>
