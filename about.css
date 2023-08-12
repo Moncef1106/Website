@@ -12,7 +12,11 @@ body {
   transition: all 0.2s ease-in;
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
-  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-y: auto; 
+}
+ 
+body::-webkit-scrollbar{
+  display: none;
 }
 
 .home-container {
@@ -40,47 +44,6 @@ body {
   color: #f6f4e6; 
 }
 
-.email-container {
-  position: absolute;
-  top: 870px;
-  left: 1620px;
-}
-
-.emailpng {
-  width: 50px;
-  height: 50px;
-  margin: 5px;
-  padding: 5px;
-}
-
-.email-text {
-  color: black;
-  font-size: 1.1em;
-  margin-left: 75px;
-  margin-top: -45px;
-}
-
-.phone-container {
-  position: absolute;
-  top: 810px;
-  left: 1620px;
-}
-
-.phonepng {
-  width: 50px;
-  height: 50px;
-  margin: 5px;
-  padding: 5px;
-  
-}
-
-.phone-text {
-  color: black;
-  font-size: 1.1em;
-  margin-left: 75px;
-  margin-top: -45px;
-}
-
 h1 {
   color: black;
   font-size: 90px;
@@ -106,35 +69,211 @@ p {
   margin-top: 20px;
 }
 
-.kat-container {
-  position: absolute;
-  top: 250px;
-  left: 500px;
+.about-box {
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+  width: 300px;
+  max-width: 100%;
+  margin: 20px auto;
+  margin-top: 510px;
+  margin-left: 200px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.katpng {
-  width: 400px;
-  height: 500px;
+.about-box h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.experience-box {
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: transparent;
+  width: 300px;
+  max-width: 100%;
+  margin: 20px auto;
+  margin-top: -220px;
+  margin-left: 800px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.experience-box h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+
+
+#infotext {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  margin-top: 18px;
+  margin-left: 30px;
+  color: black; 
+}
+
+#phonetext {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  margin-top: 18px;
+  margin-left: 30px;
+  color: black;
+}
+
+#emailtext {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  margin-top: 18px;
+  margin-left: 30px;
+  color: black; 
+}
+
+#htmltext {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  margin-top: 18px;
+  margin-left: 30px;
+  color: black; 
+}
+
+#csstext {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  margin-top: 18px;
+  margin-left: 30px;
+  color: black; 
+}
+
+#jstext {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  margin-top: 18px;
+  margin-left: 30px;
+  color: black; 
+}
+
+.moncef-container {
+  position: absolute;
+  top: 190px;
+  left: 360px;
+}
+
+.moncefpng {
+  width: 510px;
+  height: 625px;
+  margin: 5px;
+  margin-left: 30px;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+.html-container {
+  position: absolute;
+  top: 1130px;
+  left: 806px;
+}
+
+.htmlpng {
+  width: 35px;
+  height: 35px;
   margin: 5px;
   padding: 5px;
   border-radius: 10%;
 }
- 
+
+.css-container {
+  position: absolute;
+  top: 1170px;
+  left: 806px;
+}
+
+.csspng {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+.js-container {
+  position: absolute;
+  top: 1210px;
+  left: 806px;
+}
+
+.jspng {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+.earth-container {
+  position:relative;
+  top: 1030px;
+  left: 210px;
+}
+
+.earthpng {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+.phone-container {
+  position:relative;
+  top: 1120px;
+  left: 210px;
+}
+
+.phonepng {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+.email-container {
+  position:relative;
+  top: 1210px;
+  left: 210px;
+}
+
+.emailpng {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10%;
+}
 
 .dark-mode {
-  background-color: #272727;
+  background-color: #1d1c1a;
 }
 
 .dark-mode h1,
 .dark-mode h5,
 .dark-mode p {
-  color: #f6f4e6; /* Change to your desired text color for dark mode */
+  color: #f6f4e6; 
 }
 
 .dark-mode .home-button {
   color: #f6f4e6;
-  background-color: #272727; /* Add a background color for the dark mode button */
-  border-color: #f6f4e6; /* Add a border color for the dark mode button */
+  background-color: #1d1c1a; 
+  border-color: #f6f4e6; 
 }
 
 .dark-mode .home-button:hover {
@@ -148,11 +287,79 @@ p {
   left: 1890px;
   border-width: 0px;
   background-color: transparent;
-  font-size: 1.2em; /* Increase the font size to make the emoji larger */
+  font-size: 1.2em; 
 }
 
 
-
-.katpng a:hover {
-   box-shadow: 50px;
+.about-box {
+   background-color: transparent;
+  opacity: 1; 
 }
+
+
+.dark-mode #infotext {
+  color: #f1f1f1;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out; 
+}
+
+.dark-mode #phonetext {
+  color: #f1f1f1;
+  opacity: 1; 
+  transition: opacity 0.5s ease-in-out; 
+}
+
+.dark-mode #htmltext {
+  color: #f1f1f1;
+  opacity: 1; 
+  transition: opacity 0.5s ease-in-out;
+}
+.dark-mode #csstext {
+  color: #f1f1f1;
+  opacity: 1; 
+  transition: opacity 0.5s ease-in-out; 
+}
+
+.dark-mode #jstext {
+  color: #f1f1f1;
+  opacity: 1; 
+  transition: opacity 0.5s ease-in-out; 
+}
+
+.dark-mode #emailtext {
+  color: #f1f1f1;
+  opacity: 1; 
+  transition: opacity 0.5s ease-in-out;
+}
+
+.dark-mode .about-box {
+  color: #f1f1f1;
+  border-color: #f1f1f1;
+  opacity: 1; 
+  transition: opacity 0.5s ease-in-out;
+}
+
+.dark-mode .about-box.fade-in {
+  opacity: 1; 
+}
+
+.dark-mode .about-box.fade-out {
+  opacity: 0; 
+}
+
+.dark-mode .experience-box {
+  color: #f1f1f1;
+  border-color: #f1f1f1;
+  opacity: 1; 
+  transition: opacity 0.5s ease-in-out;
+}
+
+.dark-mode .experience-box.fade-in {
+  opacity: 1; 
+}
+
+.dark-mode .experience-box.fade-out {
+  opacity: 0; 
+}
+
+
